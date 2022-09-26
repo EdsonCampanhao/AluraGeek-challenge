@@ -8,6 +8,8 @@
 
  <li><h3> Algumas observações importantes</h2>
  <ul>
+  <li> Como foi desenvolvido com o conceito de mobile first só está com o layout de mobile no momento.</li>
+  <li> O "banner" logo após o header é a imagem já com a legenda e botões imbutidos. Em queries que não a de 360 acabam tendo inconsistência</li>
   <li> O projeto está sendo dividido em quatro semanas, então não será "pushado" já pronto e sim por partes </li>
   <li> Apesar de ser um projeto que está sendo feito em conjunto com os integrantes do curso a parte de código html/css é por conta de cada aluno individual</li>
   <li> Nenhuma das âncoras tem um "href" definido, são apenas visuais. </li>
