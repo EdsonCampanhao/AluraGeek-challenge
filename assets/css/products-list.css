@@ -1,0 +1,88 @@
+:root{
+    --azul-alura: #2A7AE4;
+    --fonte-branca: #fff;
+    --fonte-preta: #464646;
+    --fundo-azul: #EAF2FD;
+    --fonte-placeholder: #A2A2A2;
+    --fonte-padrao:'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+.product{
+height: 610px;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 32px;
+
+}
+.product__div{
+    display: flex;
+    height: 26px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    box-sizing: border-box;
+}
+.product__title{
+    font-weight: 700;
+    
+    height: 26px;
+    width: 102px;
+    font-size: 2.2rem;
+    color: var(--fonte-preta);
+    
+}
+.material-symbols-outlined {
+  width: 11px;
+  height: 11px;
+  display: flex;
+  align-items: center;
+  
+}
+.product__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 16px;
+    width: 77px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+    
+    color: var(--azul-alura);
+
+
+}
+.product__item{
+    width: 156px;
+    height: 249px;
+    padding-left: 16px;
+
+}
+.product__name{
+    font-weight: 500;
+font-size: 1.4rem;
+color: var(--fonte-preta);
+padding-bottom: 8px;
+padding-top: 8px;
+
+
+}
+.product__price{
+    font-weight: 700;
+font-size: 1.6rem;
+color: var(--fonte-preta);
+padding-bottom: 8px;
+}
+.product__button{
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--azul-alura);
+    margin-bottom: 16px;
+    
+}
+

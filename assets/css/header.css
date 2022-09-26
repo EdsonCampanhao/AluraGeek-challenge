@@ -1,0 +1,93 @@
+:root{
+    --azul-alura: #2A7AE4;
+    --fonte-branca: #fff;
+    --fonte-preta: #464646;
+    --fundo-azul: #EAF2FD;
+    --fonte-placeholder: #A2A2A2;
+    --fonte-padrao:'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+.header{
+
+    height: 72px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    width: 100px;
+    height: 28px;
+    display: inline;
+    margin-left: 16px;
+}
+.header__button{
+     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:35.5px ;
+    height: 40px;
+    width: 133px;
+    color: var(--azul-alura);
+    font-weight:600 ;
+    border: 1px solid var(--azul-alura);
+
+   
+ 
+
+}
+.header__icon{
+    color: var(--fonte-preta);
+    margin: 0 28px 0 38.5px ;
+}
+.promotion{
+    display: flex;
+    flex-flow: column;
+    height: 192px;
+    background-image: url(/assets/img/Hero.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: rgb(95, 106, 102);
+    padding-left: 16px;
+    
+    
+    
+    
+}
+.promotion__title{
+    font-weight: 700;
+    color: var(--fonte-branca);
+    font-size:2.2rem;
+    padding: 78px 16px 8px 0;
+    
+    
+
+}
+.promotion__description{
+    font-weight: 600;
+    color: var(--fonte-branca);
+    font-size: 1.4rem;
+    padding-bottom:8px ;
+}
+.promotion__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--fonte-branca);
+    padding: 16px 12px ;
+    background-color: var(--azul-alura);
+    width: 119px;
+    height: 40px;
+    font-weight: 600;
+   font-size: 1.4rem;
+   box-sizing: border-box;
+
+}
