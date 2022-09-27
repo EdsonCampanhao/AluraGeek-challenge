@@ -9,10 +9,9 @@
 }
 
 .product{
-height: 610px;
 display: flex;
 flex-wrap: wrap;
-margin-bottom: 32px;
+margin-bottom: 16px;
 
 }
 .product__div{
@@ -34,8 +33,8 @@ margin-bottom: 32px;
     
 }
 .material-symbols-outlined {
-  width: 11px;
-  height: 11px;
+  width: 17px;
+  height: 17px;
   display: flex;
   align-items: center;
   
@@ -60,6 +59,7 @@ margin-bottom: 32px;
     width: 156px;
     height: 249px;
     padding-left: 16px;
+    padding-bottom: 16px;
 
 }
 .product__name{
@@ -85,4 +85,6 @@ padding-bottom: 8px;
     margin-bottom: 16px;
     
 }
+
+
 
