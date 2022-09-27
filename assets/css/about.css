@@ -93,3 +93,16 @@
        margin-top: 32px ;
     }
 }
+@media screen and (min-width:1136px) {
+
+    
+    .header{
+        margin: 0 auto;
+        width: 1136px;
+    }
+    .promotion{
+        margin: 0 auto;
+        width: 1136px;
+    }
+    
+}

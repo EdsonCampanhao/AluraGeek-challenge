@@ -14,6 +14,10 @@
     font-family: var(--fonte-padrao);
 }
 
+.header__search {
+    display: none;
+}
+
 .header {
 
     height: 72px;
@@ -93,16 +97,25 @@
     box-sizing: border-box;
 
 }
-@media screen and (min-width:768px)
-{
 
+@media screen and (min-width:768px) {
 
-    .header__logo{
-        margin-left: 32px;
-        
-        
+    .header__container {
+        padding-left: 32px;
+        display: flex;
+        align-items: center;
+        width: 404px;
+        justify-content: space-between;
     }
-    .header__search{
+
+    .header__logo {
+        margin: 0;
+
+
+
+    }
+
+    .header__search {
         width: 272px;
         height: 40px;
         background-color: #F5F5F5;
@@ -110,53 +123,97 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-right: 134px;
+
 
     }
-    .header__search__text{
+
+    .header__search__text {
         margin-left: 16px;
         background-color: #F5F5F5;
         border: none;
-        
+
     }
-    .header__search__text:focus{
+
+    .header__search__text:focus {
         box-shadow: 0 0 0 0;
         outline: 0;
         margin-left: 16px;
         background-color: #F5F5F5;
         border: none;
-        
+
     }
-    .search__icon{
-       color:var(--fonte-placeholder) ;
-       margin: 0 20px 5px ;
+
+    .search__icon {
+        color: var(--fonte-placeholder);
+        margin: 0 20px 5px;
     }
-   #header__icon{
+
+    #header__icon {
         display: none;
     }
-    .header__button{
+
+    .header__button {
         margin-right: 32px;
     }
-    .promotion{
+
+    .promotion {
         background-image: url(../img/banner-image.png);
-        background-size:cover;
-        height:352px;
-        padding-left: 32px ;
+        background-size: cover;
+        height: 352px;
+        padding-left: 32px;
     }
-    .promotion__title{
+
+    .promotion__title {
         font-size: 5.2rem;
         padding: 0;
         margin: 161px 32px 16px 0;
     }
-    .promotion__description{
+
+    .promotion__description {
         font-size: 2.2rem;
         padding-bottom: 16px;
 
 
 
     }
-    .promotion__button{
+
+    .promotion__button {
         margin-bottom: 32px;
 
     }
+}
+
+@media screen and (min-width:1136px) {
+
+
+    .header {
+        margin: 0 auto;
+        width: 1136px;
+    }
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        width: 601px;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        width: 176px;
+        height: 50px;
+    }
+
+    .header__search {
+        width: 393px;
+        height: 40px;
+    }
+    .header__button{
+        margin: 0;
+    }
+
+    .promotion {
+        margin: 0 auto;
+        width: 1136px;
+    }
+
 }
