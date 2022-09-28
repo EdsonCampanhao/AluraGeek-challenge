@@ -163,14 +163,15 @@
         display: flex;
         gap: 112px;
         padding: 0;
-        margin-right: 112px;
+        margin:0;
+        margin-top: 32px;
 
     }
 
     .about {
         display: flex;
         margin: 64px auto;
-        width: 1133px;
+        width: 1136px;
     }
 
 
@@ -179,14 +180,19 @@
         height: 50px;
 
     }
+    .about__company__option{
+        width: 176px;
+    }
 
     .name__container {
         width: 560px;
         height: 56px;
+        box-sizing: border-box;
 
     }
 
     .about__contact__mensage {
+        box-sizing: border-box;
         width: 560px;
         height: 82px;
     }
