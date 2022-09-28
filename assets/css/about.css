@@ -38,7 +38,9 @@
 }
 
 .about__contact {
+    width: 80%;
     margin-left: 8px;
+    margin-right: 10px;
 }
 
 .about__text {
@@ -48,22 +50,42 @@
     padding-bottom: 8px;
 }
 
+.name__container {
+    background-color: #fff;
+    margin-bottom: 16px;
+    width: 100%;
+    padding-right:24px ;
+    border-bottom: 1px solid #C8C8C8;
+
+
+}
+
+.name__container__text {
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 12px 4px 12px;
+}
+
 .about__contact__name {
     text-align: start;
     text-justify: start;
-    width: 93%;
-
-    margin: 0 16px 16px 0;
+    width: 100%;
+    border: none;
     height: 56px;
+    
 
 
 }
 
 .about__contact__mensage {
-    width: 93%;
+    width: 100%;
     height: 82px;
-
+    border: none;
     margin: 0 16px 8px 0;
+    border-bottom: 1px solid #C8C8C8;
+    padding: 8px 12px 4px 12px;
 
 
 }
@@ -127,24 +149,25 @@
     }
 
 
-.about__logo {
-    width: 176px;
-    height: 50px;
+    .about__logo {
+        width: 176px;
+        height: 50px;
 
-}
+    }
 
-.about__contact__name {
-    width: 560px;
-    height: 56px;
-}
+    .about__contact__name {
+        width: 560px;
+        height: 56px;
+    }
 
-.about__contact__mensage {
-    width: 560px;
-    height: 82px;
-}
-.about__contact__button{
-    width: 165px;
-height: 51px;
-}
+    .about__contact__mensage {
+        width: 560px;
+        height: 82px;
+    }
+
+    .about__contact__button {
+        width: 165px;
+        height: 51px;
+    }
 
 }
