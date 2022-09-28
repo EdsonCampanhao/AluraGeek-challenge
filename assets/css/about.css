@@ -54,7 +54,7 @@
     background-color: #fff;
     margin-bottom: 16px;
     width: 100%;
-    padding-right:24px ;
+    padding-right: 24px;
     border-bottom: 1px solid #C8C8C8;
 
 
@@ -70,13 +70,17 @@
 
 .about__contact__name {
     text-align: start;
-    text-justify: start;
-    width: 100%;
+    padding-left: 10px;
     border: none;
-    height: 56px;
-    
 
 
+
+
+}
+
+.about__contact__name:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 .about__contact__mensage {
@@ -88,6 +92,11 @@
     padding: 8px 12px 4px 12px;
 
 
+}
+
+.about__contact__mensage:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 .about__contact__button {
@@ -127,9 +136,25 @@
     .about__text {
         margin-top: 32px;
     }
+
+    .name__container {
+        width: 434px;
+
+        height: 56px;
+    }
+
+    .about__contact__name {
+        width: 434px;
+
+    }
+
+    .about__contact__mensage {
+        width: 434px;
+        height: 82px;
+    }
 }
 
-@media screen and (min-width:1133px) {
+@media screen and (min-width:1136px) {
     footer {
         background-color: #EAF2FD;
     }
@@ -155,9 +180,10 @@
 
     }
 
-    .about__contact__name {
+    .name__container {
         width: 560px;
         height: 56px;
+
     }
 
     .about__contact__mensage {

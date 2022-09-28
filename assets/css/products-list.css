@@ -73,11 +73,15 @@
 }
 
 .product__item {
-    width: 156px;
+    width: 140px;
     height: 249px;
 
     padding-bottom: 16px;
 
+}
+.product__img{
+    width: 140px;
+    height: 174px;;
 }
 
 .product__name {

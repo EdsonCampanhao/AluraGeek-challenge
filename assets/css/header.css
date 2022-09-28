@@ -57,7 +57,8 @@
     display: flex;
     flex-flow: column;
     height: 192px;
-    background-image: url(../img/Hero.png);
+    background-image: url(../img/banner-image.png.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: rgb(95, 106, 102);
@@ -158,7 +159,8 @@
     }
 
     .promotion {
-        background-image: url(../img/banner-image.png);
+        background-image: url(../img/banner-image.png.jpg);
+        background-position: center;
         background-size: cover;
         height: 352px;
         padding-left: 32px;
@@ -213,6 +215,8 @@
     }
 
     .promotion {
+        background-image: url(../img/banner-image.png);
+        background-position: center;
         margin: 0 auto;
         width: 1136px;
     }
