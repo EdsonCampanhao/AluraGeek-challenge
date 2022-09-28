@@ -61,7 +61,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: rgb(95, 106, 102);
+    
     padding-left: 16px;
     box-sizing: border-box;
 
@@ -213,9 +213,15 @@
     .header__button{
         margin: 0;
     }
+.promotion__container{
+    width: 100%;
+    background-image: url(../img/banner-image.png);
+    background-size: cover;
+    background-position: center;
 
+}
     .promotion {
-        background-image: url(../img/banner-image.png);
+        background-image: none;
         background-position: center;
         margin: 0 auto;
         width: 1136px;
