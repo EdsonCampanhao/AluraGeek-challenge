@@ -37,11 +37,7 @@
 
 }
 
-.about__contact {
-    width: 80%;
-    margin-left: 8px;
-    margin-right: 10px;
-}
+
 
 .about__text {
     font-weight: 700;
@@ -73,6 +69,8 @@
     text-align: start;
     padding-left: 10px;
     border: none;
+    width:328px ;
+    box-sizing: border-box;
 
 
 
@@ -85,7 +83,8 @@
 }
 
 .about__contact__mensage {
-    width: 100%;
+    width: 328px;
+    box-sizing: border-box;
     height: 82px;
     border: none;
     margin: 0 16px 8px 0;
@@ -172,6 +171,7 @@
 
     .about {
         display: flex;
+        justify-content: space-between;
         margin: 0 auto;
         width: 1136px;
     }
@@ -192,6 +192,7 @@
         box-sizing: border-box;
 
     }
+    
 
     .about__contact__mensage {
         box-sizing: border-box;
