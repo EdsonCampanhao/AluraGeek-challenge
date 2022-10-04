@@ -36,9 +36,13 @@ main {
 }
 
 .title__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     background-color: var(--azul-alura);
     border: none;
+    text-decoration: none;
     width: 151px;
     height: 40px;
     font-size: 1.4rem;

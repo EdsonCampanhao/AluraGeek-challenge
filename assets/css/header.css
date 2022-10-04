@@ -49,10 +49,20 @@
 
 
 }
+.header__button-admin{
+    width: 166px;
+    margin-left: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
 
 .header__icon {
     color: var(--fonte-preta);
     margin: 0 28px 0 38.5px;
+}
+.header__icon-admin{
+    margin: 0;
+    margin-right: 24px;
 }
 
 .promotion {
@@ -214,6 +224,13 @@
     }
     .header__button{
         margin: 0;
+    }
+    .header__button-admin{
+        width: 181px;
+        height: 51px;
+        margin-left: 0;
+        font-size: 1.6rem;
+        font-weight: 400;
     }
 .promotion__container{
     width: 100%;
