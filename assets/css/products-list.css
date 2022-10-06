@@ -130,7 +130,7 @@ main {
 }
 
 .product__item {
-    width: 140px;
+    width: 156px;
     height: 249px;
 
     padding-bottom: 16px;
@@ -138,9 +138,9 @@ main {
 }
 
 .product__img {
-    width: 140px;
+    width: 156px;
     height: 174px;
-    ;
+    
 }
 
 .product__name {
