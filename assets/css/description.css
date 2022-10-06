@@ -76,7 +76,7 @@
     .product__image{
         width: 254px;
         height: 157px;
-        display: inline-block;
+       
     }
     #container-similar{
         padding: 0 32px;
@@ -92,10 +92,16 @@
     .product__main{
         display: flex;
         flex-direction: row;
-        padding-left:32px ;
+        padding: 64px 0 0;
         max-width: 1136px;
         margin: 0 auto;
 
+    }
+    .product__legend{
+        font-size:5.2rem ;
+    }
+    .product__text{
+        font-size: 1.6rem;
     }
    
     .product__image{
@@ -106,17 +112,20 @@
     }
     .product__image-desktop{
 
-        width: 254px;
-        height: 157px;
-        display: inline-block;
+        width: 560px;
+        height: 400px;
+        display:block;
     }
     #container-similar{
-        padding: 0 32px;
+        padding: 64px 0 0;
+
     }
     .product__description{
-        
+        width: 560px;
     }
     .product__similar-title {
+        font-size: 3.2rem;
+        padding-bottom: 16px;
        
     }
 
