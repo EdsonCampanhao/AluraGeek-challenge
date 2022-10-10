@@ -75,6 +75,7 @@
     background-size: 100%;
     
     padding-left: 16px;
+    padding-bottom: 16px;
     box-sizing: border-box;
 
 }
@@ -242,7 +243,9 @@
     .promotion {
         background-image: none;
         background-position: center;
-        margin: 0 auto;
+        margin: 0 auto 32px;
+        padding: 0;
+        
         width: 1136px;
     }
 

@@ -81,12 +81,7 @@
     #container-similar{
         padding: 0 32px;
     }
-    .product__description{
-        
-    }
-    .product__similar-title {
-       
-    }
+    
 }@media screen and (min-width:1136px) {
 
     .product__main{
