@@ -71,16 +71,16 @@
     border: none;
     width:328px ;
     box-sizing: border-box;
-
-
-
-
 }
 
 .about__contact__name:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
+.about__contact__name.error{
+    color: red;
+}
+
 
 .about__contact__mensage {
     width: 328px;
@@ -98,6 +98,10 @@
 .about__contact__mensage:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
+}
+
+.about__contact__button:disabled{
+    background-color: #A2A2A2;
 }
 
 .about__contact__button {
