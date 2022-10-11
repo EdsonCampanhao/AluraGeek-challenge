@@ -1,3 +1,6 @@
+:root{
+    --button-disabled: #acacac
+}
 .login__container {
     background-color: var(--fundo-cinza);
     display: flex;
@@ -29,6 +32,19 @@
     border-bottom: 1px solid var(--borda-cinza);
     padding-left: 12px;
 }
+.login__email:focus,
+.login__password:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+
+}
+
+
+.login__email-error,.login__password-error{
+    border: none;
+    border: 1px solid red;
+}
 
 .login__button {
     color: var(--fonte-branca);
@@ -36,6 +52,10 @@
     border: none;
     width: 109px;
     height: 40px;
+}
+.login__button:disabled{
+    background-color: var(--button-disabled);
+    cursor: not-allowed;
 }
 
 @media screen and (min-width: 1136px) {
