@@ -2,7 +2,7 @@
 
 <ul>
  <li><h2>Descrição do projeto</h2>
- <p>  O projeto está sendo realizado em um dos challenges da Alura para concretizar conhecimentos em css/js/ e algum framework ( no meu caso será o react) . O projeto também tem por objetivo mostrar como são usadas algumas das ferramentas do programador, tais como: Trello, Git e GitHub, Figma, Discord.
+ <p>  O projeto está sendo realizado em um dos challenges da Alura para concretizar conhecimentos em css/js/ e algum framework. O projeto também tem por objetivo mostrar como são usadas algumas das ferramentas do programador, tais como: Trello, Git e GitHub, Figma, Discord.
  
  
 
