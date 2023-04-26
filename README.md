@@ -1,5 +1,8 @@
 <h1> AluraGeek-challenge </h1>
 
+![image](https://user-images.githubusercontent.com/108037292/234635696-9405c73c-1b79-4314-925c-0877ed511e28.png)
+
+
 <ul>
  <li><h2>Descrição do projeto</h2>
  <p>  O projeto está sendo realizado em um dos challenges da Alura para concretizar conhecimentos em css/js/ e algum framework. O projeto também tem por objetivo mostrar como são usadas algumas das ferramentas do programador, tais como: Trello, Git e GitHub, Figma, Discord.
